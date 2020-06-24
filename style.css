@@ -89,7 +89,7 @@ h6 {
   color: maroon;
   font-weight: bold;
   text-align: center;
-  margin-top: 4em;
+  margin-top: 1em;
   margin-bottom: 1.1em;
   margin-left: 0px;
   }
@@ -98,4 +98,10 @@ img.r {
   float: right;
   margin: 0px 0px 20px 20px;
   box-shadow: 10px 10px 5px #888888;
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
