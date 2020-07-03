@@ -52,10 +52,6 @@ footer {
 [class*="col-"] {
   float: left;
   }
-p.arrow {
-  font-size: 250%;
-  line-height: 0em;
-  }
 a {
   text-decoration: none;
   }
@@ -111,7 +107,12 @@ img.rss {
   margin: 0px 0px 20px 20px;
   box-shadow: 10px 10px 5px #888888;
   }
-video {
+img.arrow {
+  height: 40px;
+  }
+video.v1 {
+  width: 350px;
+  height: 197px;
   float: right;
   margin: 0px 0px 20px 20px;
   box-shadow: 10px 10px 5px #888888;
