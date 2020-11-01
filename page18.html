@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Notebook</title>
+    <meta name="description" content="notebook">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="book">
+      <header>
+        <div class="row">
+          <div class="col-1"><p class="arrow"><a href="page17.html"><img class="arrow" src="images/lArrow.png"></a></p></div> <!-- 10% -->
+          <div class="col-2"><p class="arrow"><a href="toc.html"><img class="arrow" src="images/dArrow.png"></a></p></div> <!-- 80% -->
+          <div class="col-3"><p class="arrow"><a href="lastPage.html"><img class="arrow" src="images/rArrow.png"></a></p></div> <!-- 10% -->
+        </div>
+      </header>
+      <section>
+          <h1>micro:bit Project</h1>
+          <p><img class="r" src="images/IMG_0972.jpg">In this photo you can see my project. The wooden car will run down the slope and I want the micro:bit to measure its speed. To do this the micro:bit needs to record the time when the car goes through the two gates, one near the top of the slope and one near the bottom. If you look carefully you can see a yellow wire connected to the top gate and a green wire connected to the bottom gate. Each gate is a piece of copper wire that is hinged at the back and just resting on a bent paper clip at the front. As the car rolls down it pushes each gate open. At first I tried using strips of kitchen foil stuck to the board and another piece fixed to the car. But that didn't work.</p>
+          <p><video class="v1" src="images/speed.mp4" controls></video>With the copper wire gate, one side is connected via a white wire to the micro:bit and another wire (yellow or green) connects the other side of the gate to another pin on the micro:bit, making an electric circuit. When the gate is opened the circuit is broken, like switching off a light. I programmed the micro:bit to detect this (you can see a bar on the display as it goes through the gate) and to record the time. The micro:bit then takes the time that the top gate opened from the time that the bottom gate opened and divides the distance between the gates (which I measured) by that time difference. That gives the speed.</p>
+          <p>The micro:bit then shows the speed on its display, firstly in meters per second (0.48) and then in feet per second (1.56).</p>
+      </section>
+      <footer>
+          <p>&copy; David James 2020   Last updated: 1st November 2020</p>
+      </footer>
+    </div>
+  </body>
+</html>
