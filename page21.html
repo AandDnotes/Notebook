@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Notebook</title>
+    <meta name="description" content="notebook">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="book">
+      <header>
+        <div class="row">
+          <div class="col-1"><p class="arrow"><a href="toc.html"><img class="arrow" src="images/lArrow.png"></a></p></div> <!-- 10% -->
+          <div class="col-2"><p class="arrow"><a href="toc.html"><img class="arrow" src="images/dArrow.png"></a></p></div> <!-- 80% -->
+          <div class="col-3"><p class="arrow"><a href="lastPage.html"><img class="arrow" src="images/rArrow.png"></a></p></div> <!-- 10% -->
+        </div>
+      </header>
+      <section>
+          <h1>Making a Compass</h1>
+          <p>I've made notes in my Notebook before about the Raspberry Pi computer and the BBC micro:bit (a very small computer). Well here is a little project that uses them both.</p>
+          <p><img class="r" src="images/compass.jpg">You know that you can make computers 'talk' to each other. You can send numbers from one computer to another via wifi or through a cable. I decided to make the micro:bit send numbers to the pi and for the pi to display those numbers. Now the micro:bit has several sensors. It can sense movement, how strong the light is and the earth's magnetic field. I wanted to send the direction of the earth's magnetic field from the micro:bit to the pi and for the pi to display it.</p>
+          <p>So I wrote a little program (in python) on the micro:bit to sent a number to the pi via a usb cable. You can see the small cable in the photo. I then wrote an app on the pi that displays a picture of a compass, but the pi's desktop is displayed on the MacBook.</p>
+          <p><video class="v1" src="images/compass1.mp4" controls></video>If you run the short video you will see that as I rotate the micro:bit so the image of the compass on the screen moves. Making one computer 'talk' to another was easy, but writing the app to display the compass was difficult and I made many mistakes.</p>
+      </section>
+      <footer>
+          <p>&copy; David James 2020   Last updated: 5th March 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>
