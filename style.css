@@ -95,6 +95,11 @@ img.r {
   margin: 0px 0px 20px 20px;
   box-shadow: 10px 10px 5px #888888;
   }
+img.rns {
+  width: 350px;
+  float: right;
+  margin: 0px 0px 20px 20px;
+  }
 img.rs {
   width: 250px;
   float: right;
@@ -123,13 +128,13 @@ video.v1 {
   margin: 0px 0px 20px 20px;
   box-shadow: 10px 10px 5px #888888;
   }
-  video.v2 {
-    width: 350px;
-    height: 234px;
-    float: right;
-    margin: 0px 0px 20px 20px;
-    box-shadow: 10px 10px 5px #888888;
-    }
+video.v2 {
+  width: 350px;
+  height: 234px;
+  float: right;
+  margin: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 5px #888888;
+  }
 .center {
   display: block;
   margin-left: auto;
