@@ -135,6 +135,13 @@ video.v2 {
   margin: 0px 0px 20px 20px;
   box-shadow: 10px 10px 5px #888888;
   }
+  video.v3 {
+    width: 450px;
+    height: 253px;
+    float: right;
+    margin: 0px 0px 20px 20px;
+    box-shadow: 10px 10px 5px #888888;
+    }
 .center {
   display: block;
   margin-left: auto;
